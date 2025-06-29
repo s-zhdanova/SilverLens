@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 .header {
-    height: 10vh;
+    height: 65px;
     width: 100vw;
     background-color: #bc6e6e;
     z-index: 1;
@@ -16,8 +16,8 @@ body {
 .logo {
     /* padding: 5px; */
     position: absolute;
-    height: 10vh;
-    width: 10vh;
+    height: 65px;
+    width: 65px;
     z-index: 3;
     top: 0px;
     left: 0px;
@@ -30,7 +30,7 @@ body {
     background-color: #bc6e6e;
     border: none;
     width: 150px; /* 22.5 */
-    height: 10vh;
+    height: 65px;
     z-index: 2;
     position: absolute;
 }
