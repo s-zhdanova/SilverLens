@@ -1,0 +1,52 @@
+body {
+    background-attachment: fixed;
+    background: #e6ddd3;
+    font-family: 'Helvetica';
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.header {
+    height: 10vh;
+    width: 100vw;
+    background-color: #bc6e6e;
+    z-index: 1;
+    position: absolute;
+}
+.logo {
+    /* padding: 5px; */
+    position: absolute;
+    height: 10vh;
+    width: 10vh;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+}
+.menuButtons {
+    /* font-weight: bold; */
+    color: #edeae6;
+    text-align: center;
+    font-size: 16px;
+    background-color: #bc6e6e;
+    border: none;
+    width: 10vw; /* 22.5 */
+    height: 10vh;
+    z-index: 2;
+    position: absolute;
+}
+.menuButtons.home {
+    top: 0px;
+    left: 90vw;
+}
+.menuButtons.about {
+    top: 0px;
+    left: 80vw;
+}
+.menuButtons.contact {
+    top: 0px;
+    left: 70vw;
+}
+.menuButtons.articles {
+    top: 0px;
+    left: 60vw;
+}
