@@ -1,23 +1,31 @@
 body {
     background-attachment: fixed;
     background: #e6ddd3;
-    font-family: 'Helvetica';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100vw;
     height: 100vh;
     margin: 0;
 }
 .header {
-    height: 10vh;
+    height: 60px;
     width: 100vw;
     background-color: #bc6e6e;
     z-index: 1;
     position: absolute;
 }
+.name {
+    position: absolute;
+    height: 40px;
+    width: 10vw;
+    z-index: 2;
+    left: 63px;
+    top: 10px;
+}
 .logo {
     /* padding: 5px; */
     position: absolute;
-    height: 10vh;
-    width: 10vh;
+    height: 60px;
+    width: 60px;
     z-index: 3;
     top: 0px;
     left: 0px;
@@ -26,13 +34,15 @@ body {
     /* font-weight: bold; */
     color: #edeae6;
     text-align: center;
-    font-size: 2vw;
+    font-size: 16px; /* 3vh */
     background-color: #bc6e6e;
     border: none;
-    width: 175px; /* 22.5 */
-    height: 10vh;
+    width: 80px; /* 18.75vw */
+    height: 60px;
     z-index: 2;
     position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: Helvetica; */
 }
 .menuButtons.home {
     top: 0px;
@@ -40,13 +50,13 @@ body {
 }
 .menuButtons.about {
     top: 0px;
-    right: 175px;
+    right: 80px;
 }
 .menuButtons.contact {
     top: 0px;
-    right: 350px;
+    right: 160px;
 }
 .menuButtons.articles {
     top: 0px;
-    right: 525px;
+    right: 240px;
 }
